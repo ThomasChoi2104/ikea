@@ -10,14 +10,11 @@ A Render-ready, touch-friendly floor planner using the supplied flat plan. Paste
 
 ## First use
 
-1. Click **Calibrate from a wall**.
-2. Click the two ends of a wall whose real length you have measured.
-3. Enter that length in centimetres.
-4. Paste an IKEA Belgium product URL and click **Find**. If IKEA blocks or changes its page format, type the width/depth manually.
-5. Add, drag and rotate the item. Layouts save in the current browser.
+1. Paste an IKEA Belgium product URL and click **Find**. If IKEA blocks or changes its page format, type the width/depth manually.
+2. Add, drag and rotate the item. Layouts save in the current browser.
 
 ## Important limitations
 
-- The source plan says dimensions are approximate and contains room areas, but no linear measurements. A real wall measurement is required for reliable scale.
+- No calibration is required. The built-in scale (48 pixels per metre) was estimated by comparing the drawn shapes of the 33 m² salon, 27 m² main bedroom and 21 m² bedroom against their stated areas. The source plan itself says dimensions are approximate, so furniture placement is an informed estimate rather than a construction measurement.
 - IKEA occasionally changes its public page markup or blocks automated requests. Manual dimensions remain available by design.
 - Storage is browser-local, so layouts are not shared between devices. This keeps the deployment free and removes the need for login/database infrastructure.
